@@ -8,7 +8,7 @@
 
 .greeting__title {
     font-size: 48px;
-    color: #9D9D9D;
+    color: #ffffff;
 }
 
 body {
@@ -20,8 +20,10 @@ body {
     display: flex;
     padding: 30px;
     width: 750px;
-    background: #1E8AA9;
+    background-color: rgba(148, 148, 148, 0.25);
     border-radius: 10px;
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .kanban * {
@@ -39,17 +41,18 @@ body {
 .kanban__column-title {
     margin-bottom: 20px;
     font-size: 30px;
-    color: #0D0D0D;
+    color: #ffffff;
     user-select: none;
 }
 
 .kanban__item-input {
     padding: 10px 15px;
     box-sizing: border-box;
-    background: #2ebfe8; /* #9D9D9D */
-    color: #333333;
+    color: #ffffff;
     border-radius: 5px;
     cursor: pointer;
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .kanban__dropzone {
@@ -66,7 +69,7 @@ body {
     width: 100%;
     padding: 10px 0px;
     font-size: 16px;
-    color: #0D0D0D;
+    color: #ffffff;
     background: rgba(0, 0, 0, 0.1);
     border: none;
     border-radius: 5px;
